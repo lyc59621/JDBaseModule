@@ -1,0 +1,6 @@
+framework module SUIUtils {
+  umbrella header "SUIUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

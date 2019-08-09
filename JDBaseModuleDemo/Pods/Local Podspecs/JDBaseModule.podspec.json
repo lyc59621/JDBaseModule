@@ -1,0 +1,109 @@
+{
+  "name": "JDBaseModule",
+  "version": "0.0.1",
+  "summary": "JDBaseModule.",
+  "description": "this is JDBaseModule",
+  "homepage": "https://github.com/lyc59621/JDBaseModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "JDBaseModule": "lyc59621@icloud.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/lyc59621/JDBaseModule.git",
+    "tag": "0.0.1"
+  },
+  "source_files": "JDBaseModule/Expand/Macros/JDBaseModuleHeader.h",
+  "resources": "JDBaseModule/**/*.{xib,json,png}",
+  "requires_arc": true,
+  "dependencies": {
+    "YYKit": [
+
+    ],
+    "QMUIKit": [
+      "3.2.1"
+    ],
+    "SUIMVVMKit": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "CTMediator": [
+
+    ],
+    "RTRootNavigationController": [
+
+    ],
+    "JDNetWorkManager": [
+      "~> 0.0.1"
+    ],
+    "JDragonTableManager": [
+
+    ],
+    "NJKWebViewProgress": [
+
+    ],
+    "MBProgressHUD+JDragon": [
+      "~> 0.0.4"
+    ],
+    "ReactiveObjC": [
+      "~> 3.1.0"
+    ],
+    "CocoaLumberjack": [
+
+    ],
+    "OpenUDID": [
+      "~> 1.0.0"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Base",
+      "subspecs": [
+        {
+          "name": "AppDelegate",
+          "source_files": "JDBaseModule/Base/AppDelegate/*.{h,m}"
+        },
+        {
+          "name": "NSObject",
+          "source_files": "JDBaseModule/Base/NSObject/*.{h,m}"
+        },
+        {
+          "name": "UIView",
+          "source_files": "JDBaseModule/Base/UIView/*.{h,m}"
+        },
+        {
+          "name": "UIViewController",
+          "source_files": "JDBaseModule/Base/UIViewController/*.{h,m}"
+        },
+        {
+          "name": "WebViewController",
+          "source_files": "JDBaseModule/Base/WebViewController/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "Expand",
+      "subspecs": [
+        {
+          "name": "Macros",
+          "source_files": "JDBaseModule/Expand/Macros/*.{h,m}"
+        },
+        {
+          "name": "Const",
+          "source_files": "JDBaseModule/Expand/Const/*.{h,m}"
+        },
+        {
+          "name": "NetworkManager",
+          "source_files": "JDBaseModule/Expand/NetworkManager/*.{h,m}"
+        }
+      ]
+    }
+  ]
+}
