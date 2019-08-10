@@ -1,6 +1,0 @@
-framework module JDragonTableManager {
-  umbrella header "JDragonTableManager-umbrella.h"
-
-  export *
-  module * { export * }
-}

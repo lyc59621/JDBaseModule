@@ -1,6 +1,0 @@
-framework module SUIMVVMKit {
-  umbrella header "SUIMVVMKit-umbrella.h"
-
-  export *
-  module * { export * }
-}

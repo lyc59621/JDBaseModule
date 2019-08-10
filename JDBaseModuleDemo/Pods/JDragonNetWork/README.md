@@ -1,2 +1,0 @@
-# JDNetWork
-by------YTKNetWork

@@ -1,6 +1,0 @@
-framework module JDBaseModule {
-  umbrella header "JDBaseModule-umbrella.h"
-
-  export *
-  module * { export * }
-}

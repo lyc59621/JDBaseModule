@@ -1,6 +1,0 @@
-framework module JDNetWorkManager {
-  umbrella header "JDNetWorkManager-umbrella.h"
-
-  export *
-  module * { export * }
-}

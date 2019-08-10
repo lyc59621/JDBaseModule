@@ -1,6 +1,0 @@
-framework module Pods_JDBaseModuleDemoTests {
-  umbrella header "Pods-JDBaseModuleDemoTests-umbrella.h"
-
-  export *
-  module * { export * }
-}

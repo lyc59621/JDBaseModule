@@ -185,7 +185,7 @@ PODS:
     - RTRootNavigationController
     - SUIMVVMKit
     - YYKit
-  - JDNetWorkManager (0.0.1):
+  - JDNetWorkManager (0.0.2):
     - JDragonNetWork (~> 0.0.5)
   - JDragonNetWork (0.0.5):
     - AFNetworking (~> 3.2.1)
@@ -499,7 +499,7 @@ DEPENDENCIES:
   - JDBaseModule (from `../../JDBaseModule`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - AFNetworking
     - CocoaLumberjack
     - CTMediator
@@ -517,10 +517,8 @@ SPEC REPOS:
     - RTRootNavigationController
     - SUIMVVMKit
     - SUIUtils
-    - YYKit
-  trunk:
-    - AFNetworking
     - "UITableView+FDTemplateLayoutCell"
+    - YYKit
 
 EXTERNAL SOURCES:
   JDBaseModule:
@@ -532,7 +530,7 @@ SPEC CHECKSUMS:
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   JDBaseModule: 0a29bc827bdb10634a7c68ea0a0641874b389f76
-  JDNetWorkManager: a119d5b774746d15e3c6ad07853772abd27ced45
+  JDNetWorkManager: 9d4fd0c200a9521d046b7e3bdbf462ab6c613520
   JDragonNetWork: 7f85f934b2611dff31922ab51507fc643fe84223
   JDragonTableManager: c49d0538bebd7c86f9bfbbdd5b74408401a29a5d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -550,4 +548,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 405f01231d7320c45e955bb3ada3788f7c93c20d
 
-COCOAPODS: 1.8.0.beta.1
+COCOAPODS: 1.7.3

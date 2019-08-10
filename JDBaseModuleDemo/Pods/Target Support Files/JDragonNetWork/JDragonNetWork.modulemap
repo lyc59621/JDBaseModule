@@ -1,6 +1,0 @@
-framework module JDragonNetWork {
-  umbrella header "JDragonNetWork-umbrella.h"
-
-  export *
-  module * { export * }
-}
