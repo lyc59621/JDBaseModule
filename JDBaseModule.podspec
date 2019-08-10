@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JDBaseModule"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "JDBaseModule."
 
   # This description is used to generate tags and improve search results.
@@ -189,7 +189,7 @@ end
   s.dependency  'Masonry'
   s.dependency  'CTMediator'
   s.dependency  'RTRootNavigationController'
-  s.dependency  'JDNetWorkManager', '~> 0.0.1'#网络
+  s.dependency  'JDNetWorkManager'
   s.dependency  'JDragonTableManager'
   s.dependency  'NJKWebViewProgress'
   s.dependency  'MBProgressHUD+JDragon','~> 0.0.4'
