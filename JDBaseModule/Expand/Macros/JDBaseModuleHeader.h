@@ -50,6 +50,8 @@
 //Net
 //#import "JDRequest.h"
 #import "JDNetRequest.h"
+#import "JDNetApiManager.h"
+#import "JDNetworkManager.h"
 #import "JDUploadRequest.h"
 
 

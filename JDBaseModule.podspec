@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "JDBaseModule"
-  s.version      = "0.0.2"
+  s.version      = "0.0.1"
   s.summary      = "JDBaseModule."
 
   # This description is used to generate tags and improve search results.
@@ -186,15 +186,14 @@ end
   s.dependency  'YYKit'
   s.dependency  'QMUIKit', '3.2.1'
   s.dependency  'SUIMVVMKit'
+  s.dependency  'ReactiveObjC', '~> 3.1.0'
   s.dependency  'Masonry'
   s.dependency  'CTMediator'
   s.dependency  'RTRootNavigationController'
   s.dependency  'JDNetWorkManager'
   s.dependency  'JDragonTableManager'
   s.dependency  'NJKWebViewProgress'
-  s.dependency  'MBProgressHUD+JDragon','~> 0.0.4'
-  s.dependency  'ReactiveObjC', '~> 3.1.0'
   s.dependency  'CocoaLumberjack'
-  s.dependency  'OpenUDID', '~> 1.0.0'
+#  s.dependency  'OpenUDID', '~> 1.0.0'
 
 end

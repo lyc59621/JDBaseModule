@@ -35,8 +35,8 @@
 #define DLog(...)
 #endif
 
-#import "CocoaLumberjack.h"
-
+//#import "CocoaLumberjack.h"
+#import <CocoaLumberjack/CocoaLumberjack.h>
 #ifdef DEBUG
 static const DDLogLevel ddLogLevel = DDLogLevelVerbose;
 #else

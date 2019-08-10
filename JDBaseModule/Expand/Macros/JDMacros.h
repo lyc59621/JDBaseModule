@@ -13,7 +13,7 @@
 
 
 
-#define APPLEID @"1436457942"
+#define APPLEID @"1212222"
 
 //获取系统对象
 #define kApplication        [UIApplication sharedApplication]

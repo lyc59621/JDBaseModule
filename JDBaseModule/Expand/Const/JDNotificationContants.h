@@ -41,45 +41,11 @@
 #define KUserSettingModelCache @"KUserSettingModelCache"
 
 
-// 发起约看选择影院影片后的通知
-#define kAppointmentFinishedChoiceMovieAndCinemaNotificationKey  @"AppointmentFinishedChoiceMovieAndCinemaNotificationKey"
-
-// tabbar点击后发送通知
-#define KNotificationTabBarSelectIndexKey @"KNotificationTabBarSelectIndexKey"
-
-
-#pragma mark - ———————  鉴赏厅 ————————
-
-// tabbar点击后发送通知
-#define KNotificationInitateLiveSuccess @"kInitateLiveNotifictionKey"
-
-#define KNotificationLiveTabSelectKey @"KNotificationLiveTabSelectKey"
-
-
-#pragma mark - ———————  约看 ————————
-
-#define KNotificationDateTabSelecttKey @"KNotificationDateTabSelecttKey"
 
 #pragma mark - ———————  分享 ————————
 
 // tabbar点击后发送通知
 #define KNotificationShareActionKey @"KNotificationShareActionKey"
 
-// 创建新的约看成功后发送通知
-#define kReleaseNewDatingFinishedNotificationKey    @"ReleaseNewDatingFinishedNotificationKey"
 
-// 发送消息以及收到消息后刷新会话列表的通知名称
-#define kRefreshConversationNotificationKey         @"RefreshConversationNotificationKey"
-
-// 时间线相关
-#define kTimelineCellMoreBtnClickedNotificationKey          @"TimelineCellMoreBtnClickedNotificationKey"
-#define kTimelineCellChatBtnClickedNotificationKey          @"TimelineCellChatBtnClickedNotificationKey"
-#define kTimelineCellRetweeteBtnClickedNotificationKey      @"TimelineCellRetweeteBtnClickedNotificationKey"
-#define kTimelineCellCommentBtnClickedNotificationKey       @"TimelineCellCommentBtnClickedNotificationKey"
-#define kTimelineCellLikeBtnClickedNotificationKey          @"TimelineCellLikeBtnClickedNotificationKey"
-
-// 富文本链接的key
-#define kTimelineLinkText                           @"TimelineLinkText"
-#define kTimelineLinkKey                            @"TimelineLinkKey"
-#define kTimelineLinkDidSelectedNotification        @"TimelineLinkDidSelectedNotification"
 #endif /* JDNotificationContants_h */
