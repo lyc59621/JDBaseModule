@@ -33,11 +33,11 @@
 #define KRedColor [UIColor redColor]
 #define kRandomColor    KRGBColor(arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0,arc4random_uniform(256)/255.0)        //随机色生成
 
-//系统色
-#define KNavBarColor HEXCOLOR(0x383c3f)
-#define KBaseViewBgColor HEXCOLOR(0x383c3f)
+////系统色
+#define KNavBarColor HEXCOLOR(0xE24B1D)
+#define KBaseViewBgColor HEXCOLOR(0xF9F9F9)
 #define KNavBgFontColor  [UIColor colorWithHexString:@"ffffff"]
-#define KBaseTintColor  HEXCOLOR(0xbe3f8b)
+#define KBaseTintColor  HEXCOLOR(0xFFFFFF)
 
 
 

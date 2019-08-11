@@ -23,23 +23,23 @@
 //api 接口类型 控制
 
 /**Mock开发服务器*/
-#define URL_API_BASE_URI_Mock @"http://rap2api.taobao.org/app/mock/21537/"
+#define URL_API_BASE_URI_Mock @"http://rap2api.taobao.org/app"
 
 /**开发服务器*/
-#define URL_API_BASE_URI_Dev @"https://dev.JDmovie.com/"
+#define URL_API_BASE_URI_Dev @"https://app.JDmovie.com/"
 
 /**测试服务器*/
-#define URL_API_BASE_URI_TesT @"https://dev.JDmovie.com/"
+#define URL_API_BASE_URI_TesT @"https://app.JDmovie.com/"
 
 /**生产服务器*/
 #define URL_API_BASE_URI_Product @"https://app.JDmovie.com/"
 
 
-#define KURL_Base_m @"m/"
+#define KURL_Base_m @""
 //url API
-#define KURL_Base_Api @"api/"
+#define KURL_Base_Api @""
 //内部版本号 每次发版递增
-#define KURL_Base_Version @"v1/"
+#define KURL_Base_Version @""
 
 
 
@@ -49,14 +49,6 @@
 
 
 #define URL_Plaza_Location_Around   @"location/around" //定位
-
-#define URL_Plaza_Location_search   @"location/search"//搜索位置
-
-#define URL_Plaza_Create   @"subjects/create" //创建
-
-#define URL_Plaza_Relay   @"subjects/relay" //转发
-
-#define URL_Plaza_Report   @"report" //举报
 
 
 #endif /* JDURLMacros_h */

@@ -10,7 +10,7 @@
 #define JDUserMacros_h
 
 
-#define kUserAuthToken @"authToken"
+#define kUserAuthToken @"token"
 
 
 #define KIsLogin [JDUserManager sharedJDUserManager].isLogined
@@ -23,16 +23,18 @@
 
 
 #define kGetUserAuthToken [[NSUserDefaults standardUserDefaults] objectForKey:kUserAuthToken]
-#define kGetUserMobile [[NSUserDefaults standardUserDefaults] objectForKey:@"userMobile"]
-#define kGetUserMobileCode [[NSUserDefaults standardUserDefaults] objectForKey:@"mobileCode"]
+#define kGetUserID [[NSUserDefaults standardUserDefaults] objectForKey:@"userId"]
+#define kGetUserCode [[NSUserDefaults standardUserDefaults] objectForKey:@"userCode"]
 
 
 
-#define kSaveUserAuthToken(authToken,mobile,phoneCode) \
+#define kSaveUserAuthToken(authToken,userId,userCode) \
 [[NSUserDefaults standardUserDefaults] setObject:authToken forKey:kUserAuthToken]; \
-[[NSUserDefaults standardUserDefaults] setObject:mobile forKey:@"userMobile"]; \
-[[NSUserDefaults standardUserDefaults] setObject:phoneCode forKey:@"mobileCode"]; \
+[[NSUserDefaults standardUserDefaults] setObject:userID forKey:@"userId"]; \
+[[NSUserDefaults standardUserDefaults] setObject:userCode forKey:@"userCode"]; \
 [[NSUserDefaults standardUserDefaults] synchronize]
+
+
 //#define kSaveUserMoible(phone) \
 //[[NSUserDefaults standardUserDefaults] setObject:phone forKey:@"userMoible"]; \
 //[[NSUserDefaults standardUserDefaults] synchronize]
@@ -45,8 +47,8 @@
 
 #define kRemoveUserAuthToken \
 [[NSUserDefaults standardUserDefaults] removeObjectForKey:kUserAuthToken];\
-[[NSUserDefaults standardUserDefaults] removeObjectForKey:@"userMobile"];\
-[[NSUserDefaults standardUserDefaults] removeObjectForKey:@"mobileCode"];\
+[[NSUserDefaults standardUserDefaults] removeObjectForKey:@"userId"];\
+[[NSUserDefaults standardUserDefaults] removeObjectForKey:@"userCode"];\
 [[NSUserDefaults standardUserDefaults] synchronize]
 
 
