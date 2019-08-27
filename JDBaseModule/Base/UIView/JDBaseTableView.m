@@ -7,6 +7,7 @@
 //
 
 #import "JDBaseTableView.h"
+#import "UITableView+FDTemplateLayoutCellDebug.h"
 
 @implementation JDBaseTableView
 
@@ -39,8 +40,9 @@
 //    self.delaysContentTouches = NO;
     self.delaysContentTouches = YES;
     self.canCancelContentTouches = YES;
-    self.estimatedRowHeight = 41;
-    self.rowHeight = UITableViewAutomaticDimension;
+//    self.estimatedRowHeight = 41;//关闭系统预估，使用FD
+//    self.rowHeight = UITableViewAutomaticDimension;
+    self.fd_debugLogEnabled = YES;
     self.showsVerticalScrollIndicator = NO;
     self.showsHorizontalScrollIndicator = NO;
     self.backgroundColor = [UIColor clearColor];

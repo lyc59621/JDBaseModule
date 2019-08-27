@@ -26,12 +26,10 @@ PODS:
     - CTMediator
     - JDBaseModule/Base (= 0.0.1)
     - JDBaseModule/Expand (= 0.0.1)
-    - JDNetWorkManager (~> 0.0.1)
+    - JDNetWorkManager
     - JDragonTableManager
     - Masonry
-    - "MBProgressHUD+JDragon (~> 0.0.4)"
     - NJKWebViewProgress
-    - OpenUDID (~> 1.0.0)
     - QMUIKit (= 3.2.1)
     - ReactiveObjC (~> 3.1.0)
     - RTRootNavigationController
@@ -45,12 +43,10 @@ PODS:
     - JDBaseModule/Base/UIView (= 0.0.1)
     - JDBaseModule/Base/UIViewController (= 0.0.1)
     - JDBaseModule/Base/WebViewController (= 0.0.1)
-    - JDNetWorkManager (~> 0.0.1)
+    - JDNetWorkManager
     - JDragonTableManager
     - Masonry
-    - "MBProgressHUD+JDragon (~> 0.0.4)"
     - NJKWebViewProgress
-    - OpenUDID (~> 1.0.0)
     - QMUIKit (= 3.2.1)
     - ReactiveObjC (~> 3.1.0)
     - RTRootNavigationController
@@ -59,12 +55,10 @@ PODS:
   - JDBaseModule/Base/AppDelegate (0.0.1):
     - CocoaLumberjack
     - CTMediator
-    - JDNetWorkManager (~> 0.0.1)
+    - JDNetWorkManager
     - JDragonTableManager
     - Masonry
-    - "MBProgressHUD+JDragon (~> 0.0.4)"
     - NJKWebViewProgress
-    - OpenUDID (~> 1.0.0)
     - QMUIKit (= 3.2.1)
     - ReactiveObjC (~> 3.1.0)
     - RTRootNavigationController
@@ -73,12 +67,10 @@ PODS:
   - JDBaseModule/Base/NSObject (0.0.1):
     - CocoaLumberjack
     - CTMediator
-    - JDNetWorkManager (~> 0.0.1)
+    - JDNetWorkManager
     - JDragonTableManager
     - Masonry
-    - "MBProgressHUD+JDragon (~> 0.0.4)"
     - NJKWebViewProgress
-    - OpenUDID (~> 1.0.0)
     - QMUIKit (= 3.2.1)
     - ReactiveObjC (~> 3.1.0)
     - RTRootNavigationController
@@ -87,12 +79,10 @@ PODS:
   - JDBaseModule/Base/UIView (0.0.1):
     - CocoaLumberjack
     - CTMediator
-    - JDNetWorkManager (~> 0.0.1)
+    - JDNetWorkManager
     - JDragonTableManager
     - Masonry
-    - "MBProgressHUD+JDragon (~> 0.0.4)"
     - NJKWebViewProgress
-    - OpenUDID (~> 1.0.0)
     - QMUIKit (= 3.2.1)
     - ReactiveObjC (~> 3.1.0)
     - RTRootNavigationController
@@ -101,12 +91,10 @@ PODS:
   - JDBaseModule/Base/UIViewController (0.0.1):
     - CocoaLumberjack
     - CTMediator
-    - JDNetWorkManager (~> 0.0.1)
+    - JDNetWorkManager
     - JDragonTableManager
     - Masonry
-    - "MBProgressHUD+JDragon (~> 0.0.4)"
     - NJKWebViewProgress
-    - OpenUDID (~> 1.0.0)
     - QMUIKit (= 3.2.1)
     - ReactiveObjC (~> 3.1.0)
     - RTRootNavigationController
@@ -115,12 +103,10 @@ PODS:
   - JDBaseModule/Base/WebViewController (0.0.1):
     - CocoaLumberjack
     - CTMediator
-    - JDNetWorkManager (~> 0.0.1)
+    - JDNetWorkManager
     - JDragonTableManager
     - Masonry
-    - "MBProgressHUD+JDragon (~> 0.0.4)"
     - NJKWebViewProgress
-    - OpenUDID (~> 1.0.0)
     - QMUIKit (= 3.2.1)
     - ReactiveObjC (~> 3.1.0)
     - RTRootNavigationController
@@ -132,12 +118,10 @@ PODS:
     - JDBaseModule/Expand/Const (= 0.0.1)
     - JDBaseModule/Expand/Macros (= 0.0.1)
     - JDBaseModule/Expand/NetworkManager (= 0.0.1)
-    - JDNetWorkManager (~> 0.0.1)
+    - JDNetWorkManager
     - JDragonTableManager
     - Masonry
-    - "MBProgressHUD+JDragon (~> 0.0.4)"
     - NJKWebViewProgress
-    - OpenUDID (~> 1.0.0)
     - QMUIKit (= 3.2.1)
     - ReactiveObjC (~> 3.1.0)
     - RTRootNavigationController
@@ -146,12 +130,10 @@ PODS:
   - JDBaseModule/Expand/Const (0.0.1):
     - CocoaLumberjack
     - CTMediator
-    - JDNetWorkManager (~> 0.0.1)
+    - JDNetWorkManager
     - JDragonTableManager
     - Masonry
-    - "MBProgressHUD+JDragon (~> 0.0.4)"
     - NJKWebViewProgress
-    - OpenUDID (~> 1.0.0)
     - QMUIKit (= 3.2.1)
     - ReactiveObjC (~> 3.1.0)
     - RTRootNavigationController
@@ -160,12 +142,10 @@ PODS:
   - JDBaseModule/Expand/Macros (0.0.1):
     - CocoaLumberjack
     - CTMediator
-    - JDNetWorkManager (~> 0.0.1)
+    - JDNetWorkManager
     - JDragonTableManager
     - Masonry
-    - "MBProgressHUD+JDragon (~> 0.0.4)"
     - NJKWebViewProgress
-    - OpenUDID (~> 1.0.0)
     - QMUIKit (= 3.2.1)
     - ReactiveObjC (~> 3.1.0)
     - RTRootNavigationController
@@ -174,12 +154,10 @@ PODS:
   - JDBaseModule/Expand/NetworkManager (0.0.1):
     - CocoaLumberjack
     - CTMediator
-    - JDNetWorkManager (~> 0.0.1)
+    - JDNetWorkManager
     - JDragonTableManager
     - Masonry
-    - "MBProgressHUD+JDragon (~> 0.0.4)"
     - NJKWebViewProgress
-    - OpenUDID (~> 1.0.0)
     - QMUIKit (= 3.2.1)
     - ReactiveObjC (~> 3.1.0)
     - RTRootNavigationController
@@ -192,15 +170,11 @@ PODS:
   - JDragonTableManager (0.0.4):
     - "UITableView+FDTemplateLayoutCell (~> 1.6)"
   - Masonry (1.1.0)
-  - MBProgressHUD (0.9.2)
-  - "MBProgressHUD+JDragon (0.0.4)":
-    - MBProgressHUD (~> 0.9.2)
   - NJKWebViewProgress (0.2.3):
     - NJKWebViewProgress/Core (= 0.2.3)
     - NJKWebViewProgress/ProgressView (= 0.2.3)
   - NJKWebViewProgress/Core (0.2.3)
   - NJKWebViewProgress/ProgressView (0.2.3)
-  - OpenUDID (1.0.0)
   - QMUIKit (3.2.1):
     - QMUIKit/QMUIComponents (= 3.2.1)
     - QMUIKit/QMUICore (= 3.2.1)
@@ -499,7 +473,7 @@ DEPENDENCIES:
   - JDBaseModule (from `../../JDBaseModule`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - CocoaLumberjack
     - CTMediator
@@ -508,10 +482,7 @@ SPEC REPOS:
     - JDragonNetWork
     - JDragonTableManager
     - Masonry
-    - MBProgressHUD
-    - "MBProgressHUD+JDragon"
     - NJKWebViewProgress
-    - OpenUDID
     - QMUIKit
     - ReactiveObjC
     - RTRootNavigationController
@@ -529,15 +500,12 @@ SPEC CHECKSUMS:
   CocoaLumberjack: 2f44e60eb91c176d471fdba43b9e3eae6a721947
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
-  JDBaseModule: 0a29bc827bdb10634a7c68ea0a0641874b389f76
+  JDBaseModule: 12c613ee1d8813467ea1974c40d13eb423bee58e
   JDNetWorkManager: 9d4fd0c200a9521d046b7e3bdbf462ab6c613520
   JDragonNetWork: 7f85f934b2611dff31922ab51507fc643fe84223
   JDragonTableManager: c49d0538bebd7c86f9bfbbdd5b74408401a29a5d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
-  "MBProgressHUD+JDragon": 51958736b3a9f97adc176371544ffa257a0ba058
   NJKWebViewProgress: f481fd424cb5ecc27eacae11b5397db92fba9a4d
-  OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
   QMUIKit: a3af645843b9558eb7aaf407b320eaeb45ab6144
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
   RTRootNavigationController: afa6913402be26f8326f7f37fc1550aa67baddcc
@@ -548,4 +516,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 405f01231d7320c45e955bb3ada3788f7c93c20d
 
-COCOAPODS: 1.7.3
+COCOAPODS: 1.8.0.beta.1
